@@ -27,12 +27,12 @@ class LoginViewModel(
     val showErrorBottomSheet = _showErrorBottomSheet
 
     private val correctLogin1 = LoginModel(
-        email = "teste@login.com",
+        email = "test@login.com",
         password = "1234"
     )
 
     private val correctLogin2 = LoginModel(
-        email = "teste2@login.com",
+        email = "test2@login.com",
         password = "1234"
     )
 
