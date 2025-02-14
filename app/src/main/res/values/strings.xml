@@ -5,4 +5,8 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="remember">Remember me</string>
+    <string name="logged">You are logged as: </string>
+    <string name="reset">Reset simulation</string>
+    <string name="error_description">Oops! We couldn\'t log you in.\nPlease check your credentials and try again. If the issue persists, try again later."</string>
+    <string name="close">Close</string>
 </resources>
