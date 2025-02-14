@@ -1,6 +1,5 @@
 package com.igorgiroti.login_sample.ui
 
-import android.util.Log
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -39,7 +38,7 @@ fun MainScreen(
     modifier: Modifier = Modifier,
 ) {
     val savedModel = viewModel.getSavedLogin()
-    Log.d("teste", "savedModel = $savedModel")
+
     var email by remember { mutableStateOf(savedModel.email) }
     var password by remember { mutableStateOf(savedModel.password) }
     var isChecked by remember {
